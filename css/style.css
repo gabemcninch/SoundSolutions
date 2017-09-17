@@ -27,9 +27,13 @@ h1 {
 
 h2 {
   font-size: 32px;
+  padding-bottom: 6px;
+  color: white;
 }
 
-h2,h3 {
+
+h3 {
+  color: grey;
   padding-bottom: 6px;
 }
 
@@ -38,7 +42,7 @@ h3 {
 }
 
 h4 {
-  color: #666;
+  color: lightgrey;
   font-size: 12px;
   font-weight: normal;
   letter-spacing: 2px;
@@ -67,14 +71,14 @@ html{
 }
 
 a {
-  color: #4d638c;
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #4d638c;
+  color: red;
   outline: none;
 }
 
@@ -144,7 +148,7 @@ a:hover, a:active, a:focus {
 }
 
 .sk-spinner-wordpress.sk-spinner {
-  background-color: #bfba55;
+  background-color: red;
   width: 40px;
   height: 40px;
   border-radius: 40px;
@@ -189,13 +193,13 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .navbar-default {
-    background: #ffffff;
+    background: black;
     margin: 0 !important;
-    padding: 18px 0;
+    padding: 1px 0;
 }
 
 .navbar-default .navbar-brand {
-  color: #555;
+  color: white;
   font-family: 'Merriweather', serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -204,7 +208,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #777;
+    color: white;
     font-size: 16px;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -214,7 +218,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #bfba55 !important;
+    color: red !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -225,13 +229,13 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-nav li a:hover,
  .navbar-default .navbar-nav .active > a {
-    color: #bfba55;
+    color: red;
   }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #bfba55;
+    color: red;
     background-color: transparent;
 }
 
@@ -241,7 +245,7 @@ a:hover, a:active, a:focus {
   }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background: #bfba55;
+    background: red;
     border-color: transparent;
   }
 
@@ -273,8 +277,8 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/home-bg.jpg') no-repeat;
-  height: 100vh;
+  background: url('../images/home-bg.JPG') no-repeat;
+  height: 66vh;
 }
 
 .main-about {
@@ -302,7 +306,7 @@ a:hover, a:active, a:focus {
 }
 
 #home h4 {
-  color: #bfba55;
+  color: red;
 }
 
 #home .btn {
@@ -395,6 +399,10 @@ a:hover, a:active, a:focus {
    Contact section              
 -----------------------------------------*/
 
+#contact {
+  background-color: black;
+}
+
 #contact .col-md-4 {
   padding-left: 0px;
 }
@@ -416,7 +424,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:hover {
-  border-color: #555;
+  border-color: lightgray;
 }
 
 #contact input {
@@ -424,7 +432,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #bfba55;
+  background: red;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -433,7 +441,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"]:hover {
-  background: #333;
+  background: lightgray;
 }
 
 
@@ -472,7 +480,7 @@ a:hover, a:active, a:focus {
 }
 
 .blog-post-title a:hover {
-  color: #bfba55;
+  color: red;
 }
 
 .blog-post-format {
