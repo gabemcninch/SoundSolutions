@@ -682,7 +682,7 @@ footer .footer-copyright {
 }
 
 .go-top:hover {
-    background: #bfba55;
+    background: red;
     color: #ffffff;
 }
 
@@ -732,7 +732,7 @@ footer .footer-copyright {
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
-/*
+
 @media (max-width: 980px) {
 
   .main-about,
@@ -784,4 +784,3 @@ footer .footer-copyright {
   }
 
 }
-*/
